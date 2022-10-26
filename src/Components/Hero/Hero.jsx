@@ -10,7 +10,7 @@ function Hero(){
                         <div className="text-container">
                             <h1 className="name-header">Hi, I'm Xavier Julies</h1>
                             <h4 className="sub-header">Frontend Developer</h4>
-                            <p className="hero-text">I design and code beautifully simple things, and I love what I do.</p>
+                            <p className="hero-text">I design and code beautifully simple things, and I love what I do</p>
                         </div>
                             <div className="img-container">
                                 <img src="images/coder.png" alt="Image of a coder" className="coder-img"/>
