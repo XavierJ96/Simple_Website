@@ -1,0 +1,71 @@
+.about{
+    margin: 5rem 6rem 0 6rem;
+}
+
+.about-container{
+    max-width: 97rem;
+    padding-right: 1.6rem;
+    padding-left: 1.6rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about-header>h3{
+    font-size: 28px;
+    color: #151418;
+    font-weight: 700;
+    margin-bottom: 1.8rem;
+}
+
+.about-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    background: #fff;
+    text-align: center;
+}
+
+.about-img{
+    max-width: 20rem;
+}
+
+.about-description{
+    font-size: 1.6rem;
+}
+
+.tech-text{
+    margin-bottom: 2rem;
+}
+
+.tech-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -2rem;
+}
+
+.tech-item{
+    width: 10rem;
+    margin-bottom: 3.2rem;
+}
+
+.tech-item>p{
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.responsive{
+    width: 5rem;
+    height: 5rem;
+}
+
+@media screen and (max-width:750px) {
+    .about{
+        margin: 5rem 0 0 0;
+    }
+}

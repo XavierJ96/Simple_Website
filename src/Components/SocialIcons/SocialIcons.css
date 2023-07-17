@@ -1,0 +1,29 @@
+.icons{
+    position: fixed;
+    top: 50%;
+}
+
+.icon{
+    list-style: none;
+    margin-left: 2rem;
+    padding: 0;
+}
+
+.icon-item{
+    margin-bottom: 2rem;
+}
+
+.icon-link{
+    color: gray;
+}
+
+.icon-link:hover{
+    color: #3986fa;
+}
+
+@media screen and (max-width: 750px) {
+    .icons{
+        display: none;
+    }
+}
+
