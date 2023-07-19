@@ -85,6 +85,10 @@ body{
     cursor: pointer;
 }
 
+.nav_resume{
+  border-radius: .5rem;
+}
+
 .resume{
   padding: .5rem;
   background-color: #3986fa;

@@ -18,10 +18,10 @@ function Hero(){
                         </div>
                         <Link
                         activeClass="active"
-                        to="projects"
+                        to="about"
                         spy={true}
                         smooth={true}
-                        offset={-70}
+                        offset={-80}
                         duration={600}
                         className="scroll-text">
                         <div className="scroll-icon">

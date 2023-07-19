@@ -7,6 +7,10 @@ function Navbar(){
 
     const [isOpen, setOpen] = useState(false)
 
+    const openResumeWindow = () => {
+        window.open('https://drive.google.com/file/d/19Cxz8xONo2nvQDzsolM3PpguWl5N0opH/view?usp=sharing', '_blank');
+      };
+
     return (
         <nav className="nav-section" id="navbar">
             <div className="nav container">
@@ -38,7 +42,7 @@ function Navbar(){
                     offset={-70}>
                         <li className="nav_item"><a className="nav-links">Contact</a></li>
                     </Link>
-                        <li className="nav_item"><a href="https://drive.google.com/uc?export=download&id=13MLdITk2esKNrZ2gucR87pxFD-Zx2uII" download="Xavier's Resume.pdf" className="nav-links nav_resume">Resume</a></li>
+                        <li className="nav_item"><a onClick={openResumeWindow} className="nav-links nav_resume">Resume</a></li>
                 </ul>
             </div>
             </div>

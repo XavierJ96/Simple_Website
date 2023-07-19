@@ -32,7 +32,7 @@ function About(){
                         <p>Javascript</p>
                         </div>
                     <div className="tech-item">
-                        <img src="images/react.svg" alt=" ReactJS Icon" />
+                        <img src="images/react.svg" alt="ReactJS Icon" />
                         <p>ReactJS</p>
                         </div>
                     <div className="tech-item">
@@ -44,8 +44,28 @@ function About(){
                         <p>Git</p>
                     </div>
                     <div className="tech-item">
-                        <img src="images/responsive.svg" alt="Responsive design Icon" className="responsive"/>
-                        <p>Responsive</p>
+                        <img src="images/sql-server.png" alt="SQL Icon" className="responsive"/>
+                        <p>SQL</p>
+                    </div>
+                    <div className="tech-item">
+                        <img src="images/firebase.svg" alt="Firebase Icon" />
+                        <p>Firebase</p>
+                    </div>
+                    <div className="tech-item">
+                        <img src="images/nodejs.svg" alt="NodeJS Icon"/>
+                        <p>NodeJS</p>
+                    </div>
+                    <div className="tech-item">
+                        <img src="images/bootstrap.svg" alt="Bootsrap Icon"/>
+                        <p>Bootstrap</p>
+                    </div>
+                    <div className="tech-item">
+                        <img src="images/github.svg" alt="GitHub Icon"/>
+                        <p>GitHub</p>
+                    </div>
+                    <div className="tech-item">
+                        <img src="images/vscode.png" alt="VS Code Icon" className="responsive"/>
+                        <p>Visual Studio Code</p>
                     </div>
                 </div>
                 </div>
