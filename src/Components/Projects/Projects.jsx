@@ -30,7 +30,7 @@ function Projects(props) {
               </a>
               <a
                 href={props.item.live}
-                target="_blank"
+                target={props.item.title === 'Weather App' ? '_blank' : '_self'}
                 className="projectLinks live-link"
               >
                 Live →

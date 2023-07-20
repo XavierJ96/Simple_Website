@@ -4,6 +4,7 @@
     scroll-behavior: smooth;
 }
 
+
 .footer>svg{
     background-color: white;
 }
@@ -16,6 +17,10 @@
     padding: 1rem 1rem 5rem;
 }
 
+.email_box {
+    margin-bottom: 2rem;
+}
+
 .footer-header{
     font-size: 3rem;
     margin-top: 0;
@@ -23,7 +28,7 @@
 
 .footer-text{
     font-size: 1.7rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .footer-icons{
