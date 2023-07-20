@@ -16,7 +16,7 @@ export default [{
     stackTitle: "Tech Stack:",
     stackTags: "HTML, CSS, JS, React",
     gitLink: "https://github.com/XavierJ96/Portfolio",
-    live: "https://xj-weather-app.netlify.app",
+    live: "",
     Image: "images/Portfolio.jpg"
 },
 {
