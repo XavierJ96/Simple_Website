@@ -7,6 +7,10 @@ function Navbar(){
 
     const [isOpen, setOpen] = useState(false)
 
+    const closeMenu = () => {
+        setOpen(false);
+    };
+
     const openResumeWindow = () => {
         window.open('https://drive.google.com/file/d/19Cxz8xONo2nvQDzsolM3PpguWl5N0opH/view?usp=sharing', '_blank');
       };
@@ -25,7 +29,8 @@ function Navbar(){
                 <img src="images/xj-white.svg" alt="Image of a signature logo" className="logo" />
             </Link>
 
-                <a className="nav-links resume" href="https://drive.google.com/uc?export=download&id=13MLdITk2esKNrZ2gucR87pxFD-Zx2uII" download="Xavier's Resume.pdf">Resume</a>
+                <a className="nav-links resume" href="https://drive.google.com/file/d/19Cxz8xONo2nvQDzsolM3PpguWl5N0opH/view?usp=sharing" target=
+                "_blank" download="Xavier's Resume.pdf">Resume</a>
                 <Hamburger duration={0.8} toggled={isOpen} toggle={setOpen} size="30"/>
 
                 <div className="nav_container">
@@ -51,17 +56,21 @@ function Navbar(){
                 <ul className="nav-list">
                     <Link
                     to="projects"
-                    offset={-260}>
+                    offset={-260}
+                    onClick={closeMenu}
+                    >
                         <li className="nav-item"><a className="nav-links">Projects</a></li>
                     </Link>
                     <Link
                     to="about"
-                    offset={-260}>
+                    offset={-260}
+                    onClick={closeMenu}>
                         <li className="nav-item"><a className="nav-links">About</a></li>
                     </Link>
                     <Link
                     to="contact"
-                    offset={-230}>
+                    offset={-230}
+                    onClick={closeMenu}>
                         <li className="nav-item"><a className="nav-links">Contact</a></li>
                     </Link>
                     <Link>
