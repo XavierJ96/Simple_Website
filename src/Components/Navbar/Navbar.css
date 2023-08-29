@@ -90,10 +90,11 @@ body{
 }
 
 .resume{
-  padding: .5rem;
+  padding: 10px;
   background-color: #3986fa;
   margin-left: auto;
   font-size: 1.3rem;
+  border-radius: .5rem;
 }
 
 .resume:hover{
