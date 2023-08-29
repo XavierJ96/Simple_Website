@@ -18,14 +18,4 @@ export default [{
     gitLink: "https://github.com/XavierJ96/Portfolio",
     live: "",
     Image: "images/Portfolio.jpg"
-},
-{
-    id: 3,
-    title: "Project 3",
-    description: "Project Description",
-    stackTitle: "Tech Stack:",
-    stackTags: "HTML, CSS, JS",
-    gitLink: "",
-    live: "",
-    Image: "images/project_1.jpg"
 }]
